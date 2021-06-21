@@ -3,6 +3,19 @@ package com.alevel;
 public class Main {
 
     public static void main(String[] args) {
-	System.out.println("Hello, World! How are you?");
+
+        int num = 1;
+        while (num <= 100) {
+            if (num % 2 == 0) {
+                System.out.println(num);
+                num++;
+            } else {
+                num++;
+            }
+        }
     }
+
 }
+
+
+
